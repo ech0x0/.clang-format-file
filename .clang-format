@@ -15,7 +15,7 @@ BraceWrapping:
     BeforeElse: false
 AllowShortBlocksOnASingleLine: Empty
 AllowShortIfStatementsOnASingleLine: AllIfsAndElse
-AllowShortLoopsOnASingleLine: Empty
+AllowShortLoopsOnASingleLine: true
 AllowShortFunctionsOnASingleLine: Empty
 IndentCaseLabels: false
 ColumnLimit: 0
@@ -24,3 +24,5 @@ PointerAlignment: Left
 SortIncludes: Never
 AccessModifierOffset: -4
 Cpp11BracedListStyle: false
+EmptyLineAfterAccessModifier: Never
+EmptyLineBeforeAccessModifier: Never
